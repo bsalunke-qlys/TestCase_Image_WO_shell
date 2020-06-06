@@ -17,5 +17,4 @@ RUN npm install -g needle
 RUN npm install -g flatted
 RUN npm install -g http-proxy
 RUN npm install -g stream-json@1.0.1
-RUN rm -f /bin/sh
-RUN rm -f /bin/bash
+RUN rm -f /bin/sh; rm -f /bin/bash
